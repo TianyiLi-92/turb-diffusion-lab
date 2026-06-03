@@ -76,4 +76,4 @@ pip install -e .
 
 ## Examples
 
-Minimal examples for the main workflows will be added progressively.
+Minimal runnable examples for the main workflows are available in [`examples/`](./examples).
