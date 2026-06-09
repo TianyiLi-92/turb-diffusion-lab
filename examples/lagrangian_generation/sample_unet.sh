@@ -17,7 +17,7 @@ if [[ ! -f "$MODEL_PATH" ]]; then
     exit 1
 fi
 
-SAMPLE_FLAGS="--num_samples 8 --batch_size 8 --model_path $MODEL_PATH"
+SAMPLE_FLAGS="--num_samples 16 --batch_size 8 --model_path $MODEL_PATH"
 MODEL_FLAGS="--dims 1 --image_size 2000 --in_channels 3 --num_channels 128 --num_res_blocks 3 --attention_resolutions 250,125 --channel_mult 1,1,2,3,4"
 DIFFUSION_FLAGS="--diffusion_steps 800 --noise_schedule tanh6,1"
 
